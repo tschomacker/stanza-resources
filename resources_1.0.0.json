@@ -5176,6 +5176,19 @@
   "telugu": {
     "alias": "te"
   },
+  "th": {
+    "tokenize": {
+      "orchid": {
+        "md5": "bc2fda6ed72c4cca7f49563821fbe615"
+      }
+    },
+    "default_processors": {
+      "tokenize": "orchid"
+    }
+  },
+  "thai": {
+    "alias": "th"
+  },
   "tr": {
     "depparse": {
       "imst": {

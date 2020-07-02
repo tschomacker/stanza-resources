@@ -5184,7 +5184,9 @@
     },
     "default_processors": {
       "tokenize": "orchid"
-    }
+    },
+    "default_md5": "a442a21e5a57782e81cba510499907c3",
+    "lang_name": "Thai"
   },
   "thai": {
     "alias": "th"

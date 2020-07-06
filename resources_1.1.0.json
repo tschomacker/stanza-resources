@@ -205,6 +205,17 @@
         "md5": "bffed1afc8133eb84801a94dd9148f35"
       }
     },
+    "sentiment": {
+      "sb10k": {
+        "md5": "7fbc495a38f085c9127b5e7d18a8c4d6",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "gsd"
+          }
+        ]
+      }
+    },
     "tokenize": {
       "gsd": {
         "md5": "5ef04536e16d642b5357a63f4127e35e"
@@ -219,7 +230,7 @@
       "lemma": "gsd",
       "pos": "gsd",
       "depparse": "gsd",
-      "ner": "conll03"
+      "ner": "conll03",
     },
     "default_dependencies": {
       "pos": [
@@ -399,6 +410,17 @@
         "md5": "26f061504460c46f5ee029b21e9eb4d6"
       }
     },
+    "sentiment": {
+      "sstplus": {
+        "md5": "4379b22fe4c78ec79beaea463eaccea4",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "ewt"
+          }
+        ]
+      }
+    },
     "tokenize": {
       "ewt": {
         "md5": "1e38c8765911784be70d5f69c2fb5e8f"
@@ -418,7 +440,7 @@
       "lemma": "ewt",
       "pos": "ewt",
       "depparse": "ewt",
-      "ner": "ontonotes"
+      "ner": "ontonotes",
     },
     "default_dependencies": {
       "pos": [
@@ -1152,12 +1174,23 @@
         "md5": "f685ace5414d60b5ca107190d0a9c889"
       }
     },
+    "sentiment": {
+      "ren": {
+        "md5": "fe5079c2834fbb322624cf490f1b649f",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "gsdsimp"
+          }
+        ]
+      }
+    },
     "default_processors": {
       "tokenize": "gsdsimp",
       "lemma": "gsdsimp",
       "pos": "gsdsimp",
       "depparse": "gsdsimp",
-      "ner": "ontonotes"
+      "ner": "ontonotes",
     },
     "default_dependencies": {
       "pos": [
